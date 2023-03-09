@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "scripts": { 
     "start": "sirv ./src public --cors --single --no-clear --port 8000",
-    "playwright_test" : "playwright test"
+    "playwright_test" : "playwright test",
+    "build": "echo 'Build command placeholder.'"
   },
   "devDependencies": {
     "@playwright/test": "^1.22.2"
   }
 }
+
